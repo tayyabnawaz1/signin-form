@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1000px;
+  height: 570px;
+  margin: 0 auto;
+  display: flex;
+  border: 2px solid black;
+  background-image: url(images/bg.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container .box1 {
+  width: 400px;
+  height: 500px;
+  margin: 30px 0 0 90px;
+  border: 1px solid black;
+  background-color: white;
+  background-image: url(images/img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box1 h1 {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 350px;
+}
+.box1 p {
+  color: white;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.container .box2 {
+  width: 400px;
+  height: 500px;
+  margin: 30px 0 0 0;
+  border: 1px solid black;
+  background-color: white;
+}
+.container .box2 h1 {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 43px;
+  margin-top: 30px;
+}
+.container .box2 input {
+  width: 290px;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 43px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(132, 8, 90);
+}
+.container .box2 p {
+  font-size: 13px;
+  margin-top: 28px;
+  margin-left: 110px;
+  margin-bottom: 10px;
+}
+.container .box2 .btn_continue {
+  width: 310px;
+  margin-top: 30px;
+  margin-left: 43px;
+  text-align: right;
+  padding: 8px;
+  /* background-color: rgb(157, 17, 127); */
+  background: linear-gradient(to right, rgb(230, 17, 230), rgb(230, 168, 221));
+  color: white;
+}
+.container .box2 .btn_continue i {
+  font-size: 18px;
+  margin-left: 90px;
+}
+.container .box2 .btn_facebook {
+  width: 310px;
+  margin-top: 25px;
+  text-align: left;
+  margin-left: 43px;
+  padding: 8px;
+  /* background-color: rgb(86, 86, 207); */
+  background: linear-gradient(to right, rgb(230, 17, 230), rgb(230, 168, 221));
+  color: white;
+}
+.container .box2 .btn_facebook i {
+  margin-right: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.container .box2 .btn_twitter {
+  width: 310px;
+  margin-top: 17px;
+  margin-left: 43px;
+  text-align: left;
+  padding: 8px;
+  /* background-color: rgb(105, 83, 165); */
+  background: linear-gradient(to right, rgb(230, 17, 230), rgb(230, 168, 221));
+  color: white;
+}
+.container .box2 .btn_twitter i {
+  margin-right: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+}
